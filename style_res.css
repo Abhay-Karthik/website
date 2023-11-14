@@ -30,7 +30,7 @@ a {
 }
 
 .left .bg-img {
-  background: url('../img_res/h2.png') center center no-repeat;
+  background: url('../website/h2.png') center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
