@@ -282,10 +282,19 @@ h6 {
         font-weight: 400;
     }
 }
+h1{
+    color: #fff;
+}
+h2{
+    color: #ffffff;
+}
 
 h3 {
     font-size: 16px;
     font-weight: 700;
+}
+introp{
+    color: #ffffff;
 }
 
 p {
@@ -294,6 +303,7 @@ p {
     line-height: 1.7;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
+
 }
 
 a {
@@ -553,15 +563,17 @@ a.active {
 
 /* ======= INTRODUCTION ======= */
 
-#intro {
-    background: url(../Deep-Learning-Shows-Some-Promises-But-Yet-To-Deliver-On-Its-Own-Hype.jpg);
+#particles-js{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/d1.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
     color: #000;
+    text-decoration-color: #ffffff;
 }
+
 
 #intro .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -583,7 +595,7 @@ a.active {
 }
 
 #intro h1 {
-    color: #FFF;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 3px;
