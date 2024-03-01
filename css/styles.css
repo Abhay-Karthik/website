@@ -720,7 +720,7 @@ a.fa.fa-angle-down:focus {
 #about img#prof-pic {
     width: 170px;
     height: auto;
-    border-radius: 50%
+    
 }
 
 #about p {
@@ -1482,7 +1482,8 @@ a.resume-btn:active {
 }
 
 #portfolio .portfolio-item-wrapper {
-    width: 31%;
+    width: 100%;
+    
     display: inline-block;
     padding: 0 0 5px;
     margin: 0 1% 30px;
